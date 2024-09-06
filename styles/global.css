@@ -1,0 +1,86 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font: inherit;
+
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+
+}
+
+:root{
+  
+  /* Cores */
+  
+  --brand-color:#ef5f4c;
+  
+  --bg-color:#fff;
+  --surface-color:#f5f5f5;
+  --skeleton-color:#d9d9d9;
+  --shape-transparency:hsla(0, 0%, 100%, 0.56);
+
+  --text-color-pri:#313131;
+  --text-color-sec:#6c6c6c;
+
+  /* Fontes */
+
+  --ff-poppins: "Poppins",system-ui, sans-serif;
+  
+  --fs-sm:0.875rem;
+  --fs-base:1rem;
+  --fs-lg:1.25rem;
+  --fs-xl:1.5rem;
+  --fs-2xl:2rem;
+
+  --fw-bold:800;
+  --fw-md:500;
+  --fw-base:400;
+  
+  --py-sm:1rem;
+  --py-base:1.5rem;
+  --py-lg:2rem;
+
+  --px-base:1.25rem;
+  --px-lg:2rem;
+}
+
+html{
+  font-family: var(--ff-poppins);
+  font-size: var(--fs-base);
+  font-weight: var(--fw-base);
+  line-height: 1.7;
+  color: var(--text-color-pri);
+  overflow-x: hidden;
+
+  scroll-behavior: smooth;
+}
+
+body{
+  
+  overflow: hidden;
+
+}
+
+p, span{
+  font-family: var(--ff-poppins);
+  font-size: var(--fs-sm)/1.7;
+  color: var(--text-color-sec);
+  
+}
+
+h1{
+ font-weight: 800;
+ font-size: var(--fs-xl); 
+ color: var(--text-color-pri);
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,31 @@
+header{
+  background-color: var(--surface-color);
+  & .container{
+
+    width: 100%;
+    display: flex;
+    
+    gap: 1rem;
+    /* border: solid violet ; */
+    
+  }
+
+  .perfil{
+    background: url(../assets/icon/Profile\ pic.png) center/cover;
+
+    
+
+    width: 2.5rem;
+    height: 2.5rem;
+
+    /* margin-right:  1rem; */
+    
+    a{
+      inset: 0;
+    }
+  }
+
+  & :first-child {
+    margin-right: auto;
+  }
+}
