@@ -1,6 +1,7 @@
 #gallery {
   /* background: black; */
   & .container{
+    margin: auto;
     width: 80rem;
     padding-inline: 1.5rem;
     

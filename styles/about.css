@@ -1,8 +1,12 @@
 #about{
+  /* width: 300rem; */
+  background-color: var(--surface-color);
   & .container{
+    width: 100%;
+    margin: auto;
     background-color: var(--surface-color);
     /* border: solid violet; */
-    width: 100%;
+    
   }
 
   
@@ -34,10 +38,18 @@
   }
 }
 
-@media (width >= 30rem) {
-  #about { 
-  & .container{
-    display: flex;
+@media (width >= 80rem) {
+  #about {
+    & .full{
+      margin-left: auto;
+    }
+    
+    & .container{
+      display: flex;
+      /* border: solid red; */
+      
+
+
     
     
     & h1{
@@ -46,6 +58,7 @@
   }
   
   & .profile{
+    
     /* border: solid gray; */
     gap: 2rem;
     display: flex;   

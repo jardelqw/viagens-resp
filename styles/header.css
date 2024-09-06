@@ -29,3 +29,11 @@ header{
     margin-right: auto;
   }
 }
+@media (width >=80em) {
+  header{     
+    & .container{
+      margin-left: auto;
+    }
+  }
+  
+}
